@@ -1,0 +1,39 @@
+.container {
+    width: 25%;
+    padding: 10px 30px;
+    margin: 9% auto;
+    color: white;
+    font-size: 16px;
+    .label {
+        font-size: 16px;
+
+    }
+    select {
+        display: block;
+        font-size: 14px;
+    }
+    .selected-city,.days{
+        margin: 20px;
+    }
+    .days,.forcast{
+        display: flex;
+        justify-content: space-around;
+    }
+    .current-temp{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 800;
+    }
+    sup {
+        right: -3px;
+    }
+    .preloader-wrapper {
+        margin: 30px auto;
+        display: block;
+    }
+    .climate-img {
+        display: block;
+        margin: 0 auto;
+        height: 60px;
+    }
+}
